@@ -1,0 +1,23 @@
+# Environment information
+environment: dev
+
+# Data source configuration
+data_source:
+  type: http
+  url: https://raw.githubusercontent.com/owid/energy-data/master/owid-energy-data.csv
+  format: csv
+
+# Filtering rules
+filters:
+  start_year: 2000
+  countries:
+    - United States
+    - India
+    - China
+    - Germany
+
+# Metrics we want to analyze
+metrics:
+  - co2_per_capita
+  - energy_per_capita
+  - renewables_share_energy
