@@ -9,7 +9,7 @@ data_source:
 
 # Filtering rules
 filters:
-  start_year: 2000
+  start_year: 2010
   countries:
     - United States
     - India
